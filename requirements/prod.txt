@@ -1,0 +1,6 @@
+-r ./compiled.txt
+
+#MySQL-python
+psycopg2
+
+raven
