@@ -156,4 +156,6 @@ INSTALLED_APPS = (
     'south',
     'hilbert',
     #'filer',
+
+    'jogaora',
 )

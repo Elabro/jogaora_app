@@ -2,7 +2,7 @@ import base
 
 DEBUG = True
 TEMPLATE_DEBUG = True
-POST_MORTEM = True
+POST_MORTEM = False
 FILER_DEBUG = True
 FILER_ENABLE_LOGGING = True
 
@@ -38,6 +38,8 @@ DEBUG_TOOLBAR_PANELS = (
 )
 DEBUG_TOOLBAR_CONFIG = {"INTERCEPT_REDIRECTS": False}
 INTERNAL_IPS = ('127.0.0.1',)
+
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
 # run local smtp server with: python -m smtpd -n -c DebuggingServer localhost:1025
 EMAIL_HOST = 'localhost'
