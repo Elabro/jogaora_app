@@ -26,3 +26,4 @@ django-model-utils
 
 #GitPython==0.1.7
 
+-e git://github.com/nagyv/jogaora.git#egg=jogaora
